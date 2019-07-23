@@ -1,0 +1,663 @@
+/******************** ADDING FONTS ********************/
+
+@font-face{
+	font-family:bilbo;
+	src:url('Bilbo-Regular.otf');
+}
+
+@font-face{
+	font-family:lato;
+	src:url('Lato-LightItalic.ttf');
+}
+
+/******************** BODY ********************/
+
+body{
+	width:100%;
+	padding:0;
+	margin:0;
+	font:13px/25px arial;
+	color:#484848;
+	background-color:#fff;
+	font-style:italic;
+}
+
+/******************** HEADER ********************/
+
+header{
+	width:100%;
+	background:url(../images/header-bg.jpg);
+	border-bottom:1px solid #fff;
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+
+h1{
+	display:inline-block;
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-left:300px;
+	margin-bottom:12px;
+	z-index:2;
+}
+
+h1 a{	
+    display:inline-block;
+	position:relative;
+	margin:0;
+	padding:0;
+	font-family:lato;
+	font-size:13px;
+	color:#ff9000;
+	text-decoration:none;
+	text-align:left;
+	
+}
+
+nav{
+	display:inline-block;
+	position:relative;
+	float:right;
+	margin-top:12px;
+	margin-bottom:12px;
+	margin-right:100px;
+	z-index:2;
+}
+
+ul.menu li{
+	float:left;
+	line-height:85px;
+	margin-right:58px;
+}
+
+ul.menu li a{
+	font-size:30px;
+	line-height:85px;
+	text-decoration:none;
+	font-family:bilbo;
+	color:#f2f2f2;
+	
+}
+
+ul.menu li a:hover, ul.menu li.current a{
+	color:#ff9000;
+	text-decoration:none;
+	
+}
+
+.clear{
+	clear:both;
+	width:100%;
+}
+
+
+/******************** SLIDER ********************/
+
+.slide{
+	width:100%;
+	height:496px;
+	z-index:1;
+	margin:0px auto;
+	overflow:hidden;
+	background:#fff;
+	position:relative;
+}
+
+.slider{
+	width:1080px;
+	height:496px;
+	margin:0px auto;
+	overflow:hidden;
+	position:relative;
+}
+
+.banner{
+	position:absolute;
+	z-index:0;
+	width:320px;
+	top:100px;
+	left:800px;
+}
+
+.banner .text-1{
+	display:block;
+	background:#fff;
+	margin-left:10px;
+	margin-top:30px;	
+}
+
+.text-1{
+	color:black;
+	font-weight:normal;
+	font-size:70px;
+	line-height:50px;
+	font-family:bilbo;
+}
+
+.text-1 strong{
+	display:block;
+	font-weight:normal;
+	font-style:italic;
+}
+
+.text-2{
+	color:gray;
+	font-weight:bold;
+	font-size:20px;
+	line-height:25px;
+	font-family:lato;
+	margin-top:10px;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.mp-prev, .mp-next{
+	position:absolute;
+	width:25px;
+	height:96px;
+	top:200px;
+	z-index:1;
+}
+
+.mp-prev{
+	left:0;
+	background:url(../images/slider-prev.png) no-repeat 0 0;
+}
+
+.mp-next{
+	right:0;
+	background:url(../images/slider-next.png) no-repeat 0 0;
+}
+
+.mp-prev:hover{
+	background:url(../images/slider-prev.png) no-repeat right 0; 
+    opacity:0.5;	
+}
+
+.mp-next:hover{
+	background:url(../images/slider-next.png) no-repeat right 0; 
+    opacity:0.5;
+}
+
+/******************** CONTENT  ********************/
+
+.content-bg{
+	width:100%;
+	padding:0 0 50px 0;
+	background:#f2f2f2;
+}
+
+.extra-wrap{
+	overflow:hidden;
+}
+
+.box-1{
+	overflow:hidden;
+	padding:20px 0 35px;
+}
+
+.box-1 img{
+	float:left;
+	margin-top:30px;
+}
+
+h2{
+	font-size:40px;
+	line-height:40px;
+	color:#000;
+	font-weight:normal;
+	font-family:bilbo;
+}
+
+.box-1 h2{
+	margin-bottom:10px;
+}
+
+.link-1{
+	color:#ff9000;
+	text-decoration:none;
+}
+
+.link-1:hover{
+	color:#ff9000;
+	text-decoration:underline;
+}
+
+.values{
+	font-family:lato;
+	font-size:15px;
+	line-height:24px;
+}
+
+ol{
+	padding-left:15px;
+}
+
+.box-2{
+	background:url(../images/line-1.gif) 0 0 repeat-x #f6f6f6;
+}
+
+.box-2 .wrap-col{
+	background:url(../images/line-1.gif) 0 bottom repeat-x;
+	padding:45px 0 30px 0;
+	text-align:center;
+}
+
+.opac:hover{
+	opacity:0;
+}
+
+.text-3{
+	font-family:bilbo;
+	font-size:93px;
+	color:#000;
+	line-height:38px;
+	text-align:centre;
+}
+
+.text-3 span{
+	font-weight:normal;
+	color:#ff9000;
+	
+}
+
+.text-4{
+	font-family:lato;
+	font-weight:bold;
+	font-size:18px;
+	line-height:30px;
+	margin-top:38px;
+	text-decoration:none;
+}
+
+.text-4 span{
+	color:blue;
+	font-family:bilbo;
+	font-size:30px;
+	line-height:45px;
+	text-align:centre;
+	letter-spacing:3px;
+}
+
+.top-1{
+	margin-top:30px;
+	font-size:50px;
+	margin-bottom:25px;
+}
+
+.box-3{
+	overflow:hidden;
+}
+
+.box-3> div{
+	width:180px;
+	float:left;
+	margin-right:25px;
+}
+
+.last{
+	margin-right:0px !important;
+	padding-right:0px !important;
+}
+
+.img-border{
+	border:8px solid #fff;
+	margin-bottom:10px;          /* for giving only bottom margin */
+}
+
+.link-2{
+	color:#ff9000;
+	font-family:lato;
+	font-weight:bold;
+	font-size:25px;
+	text-decoration:none;
+}
+
+.link-2:hover{
+	text-decoration:underline;
+}
+
+.box-3>div a.link-2{             /* important and new concept */
+	display:inline-block;        /* for giving both bottom and top margin about link-2 text */
+	margin:10px 0 8px 0;
+}
+
+.space{
+	line-height:20px;
+	font-family:lato;
+	font-weight:bold;
+}
+
+.startup{
+	color:blue;
+	font-family:bilbo;
+	font-size:20px;
+	letter-spacing:2px;
+	text-decoration:none;
+}
+
+.button{
+	background:url(../images/button.png) 0 0 no-repeat;
+	font-family:bilbo;
+	color:#000;
+	font-size:26px;
+	line-height:30px;
+	display:inline-block;
+	padding:5px 0 5px 45px; 
+	margin-top:20px;
+}
+
+.button:hover{
+	color:#579700;
+	opacity:0.7;
+}
+
+.top-2{
+	margin-top:10px;
+}
+
+.date{
+	overflow:hidden;
+}
+
+.date strong{
+	display:inline-block;
+	background:url(../images/date.png) 0 0 no-repeat;
+	width:51px;                                              /* also the height and weidth of image */
+	height:53px;
+	float:left;
+	margin-right:15px;
+	font-family:bilbo;
+	color:#000;
+	font-size:40px;
+	line-height:52px;
+	text-align:center;
+}
+
+.date span{
+	font-weight:bold;
+	font-size:23px;
+	font-family:lato;
+	line-height:60px;
+}
+
+.deepak{
+	text-align:center;
+	font-family:lato;
+	font-weight:bold;
+}
+
+/******************** FOOTER  ********************/
+
+footer{
+	width:950px;
+	height:100px;
+	overflow:hidden;
+	margin:0px auto;
+	padding:30px 0 20px 0;
+}
+
+footer p{
+	float:left;
+	text-align:center;
+	width:600px;
+}
+
+footer p span{
+	font-family:lato;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.link-3{
+	color:#000;
+	font-family:lato;
+	font-weight:bold;
+	font-size:15px;
+	text-decoration:none;
+}
+
+.link-3:hover{
+	text-decoration:none;
+}
+
+.link-4{
+	color:#ff9000;
+	font-family:open sain;
+	word-spacing:3px;
+	font-size:16px;
+	text-decoration:none;
+}
+
+.link-4:hover{
+	text-decoration:underline;
+}
+
+
+.social-icons{
+	overflow:hidden;
+	float:right;
+	margin-left:15px;
+}
+
+.social-icons span{
+	font-family:bilbo;
+	font-weight:bold;
+	margin-right:20px;
+	line-height:5px;
+	font-size:28px;
+}
+
+.social-icons a{
+	margin:3px;
+}
+
+
+.social-icons a:hover img{
+    opacity:0.7;
+}
+
+
+/******************* PRODUCT PAGE STYLE ********************/
+
+.box-5{
+	overflow:hidden;
+	padding-top:8px;
+}
+
+.box-5 img{
+	margin:5px 10px 0 0;
+}
+
+.right-1{
+	margin-right:18px;
+}
+
+.p2{
+	font-family:lato;
+	font-weight:bold;
+	font-size:14px;
+	word-spacing:1px;
+	margin-bottom:8px;
+	margin-left:200px;
+}
+
+.p3{
+	font-family:lato;
+	color:#717171;
+	font-weight:bold;
+	font-size:15px;
+	margin-bottom:18px;
+	text-align:center;
+	margin-top:22px;
+}
+
+.top-3{
+	margin-top:30px;
+	margin-bottom:25px;
+}
+
+.fleft{
+	float:left;
+}
+
+.p4{
+	font-family:lato;
+	font-weight:bold;
+	font-size:14px;
+	line-height:18px;
+}
+
+.img-indent{
+	margin-right:15px;
+} 
+
+.link-5{
+	color:#ff9000;
+	font-family:lato;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+}
+
+.link-5:hover{
+	text-decoration:underline;
+}
+
+.box-6{
+	margin-bottom:35px;
+}
+
+.margin-1{
+	margin-top:55px;
+}
+
+ul.list-1 li{
+	padding:0 0 0 25px;
+	line-height:25px;
+	background:url(../images/marker.png) 0 5px no-repeat;
+	font-size:2px;
+}
+
+ul.list-1 li a:hover{
+	color:#457c00;
+}
+
+/******************** CONTACT PAGE STYLE ********************/
+
+.map{
+	width:600px;
+	height:400px;
+}
+
+h3{
+	font-family:bilbo;
+	font-weight:bold;
+	color:red;
+	font-size:30px;
+	float:left;
+	word-spacing:4px;
+}
+
+.top-4{
+	margin-top:34px;
+	margin-bottom:25px;
+	margin-left:150px;
+	font-size:18px;
+	font-family:lato;
+	font-weight:bold;
+}
+
+form{
+	margin:36px 0 0 0;
+	width:350px;
+	height:380px;
+	margin-left:50px;
+	border:5px solid #fff;
+}
+
+fieldset{
+	margin:2px;
+	padding:2px;
+	border:none;
+}
+
+form label{
+	position:relative;
+	overflow:hidden;
+	display:inline-block;
+}
+
+form input{
+	padding:5px 10px 10px 18px;
+	width:310px;
+	height:22px;  
+}
+
+form textarea{
+	height:167px;
+	overflow:auto;
+	padding:5px 0 0 18px;
+	resize:none;
+	width:320px;
+}
+
+form input,textarea{
+	border:2px solid #fff;
+	background:#fff;
+	font:16px lato;
+	font-weight:bold;
+	color:#000;
+	font-style:italic;
+	outline:none;
+	float:left;
+}
+
+.btn{
+	margin-top:15px;
+	float:right;
+	word-spacing:60px;
+}
+
+/******************** PRODUCT PAGE STYLE ********************/
+
+.product-box{
+	overflow:hidden;
+}
+
+.product-box> div{
+	width:280px;
+	float:left;
+	margin-right:45px;
+}
+
+.product-box> div a.link-2{             /* important and new concept */
+	display:inline-block;        /* for giving both bottom and top margin about link-2 text */
+	margin:20px 10px 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

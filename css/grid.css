@@ -1,0 +1,59 @@
+/******************** CONTAINER ********************/
+
+.container{
+	width:950px;
+	position:relative;
+	margin:0px auto;
+	padding:0;
+}
+
+.container .adjust-1{
+	width:50%;
+	display:inline-block;
+	float:left;
+}
+
+.container .wrap-col{
+	margin:10px;
+}
+
+.container .row:before, .row:after{
+	content:"";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+.container .row:after{
+	clear:both;
+}
+
+.container .adjust-0{
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+
+.container .adjust-2{
+	width:66.66%;
+	display:inline-block;
+	float:left;
+}
+
+.container .adjust-3{
+	width:33.33%;
+	display:inline-block;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
