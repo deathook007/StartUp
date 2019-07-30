@@ -1,4 +1,3 @@
-# Black_Panther_2
-The site is not working exactly the way it was in offline mode so just download the file and enjoy!                                                                        
-Work better in offline mode!                                                                                                                                             
-Work better with paid domain!
+# HTML and CSS advance!
+A fully designed udemy templet from skretch best for practising ur HTML and CSS advance coding skills! Just look TO THE DESIGN TEMPLET and code yourself :)
+#Initial step: In you starting projects u cant came across great ideas so try to follow some great instructurs ideas and follow them and code yourself for 2 projects! Then make sure to come across good ideas .
