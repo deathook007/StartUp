@@ -1,4 +1,11 @@
-# HTML and CSS advance!
-A fully designed udemy templet from skretch best for practising ur HTML and CSS advance coding skills! Just look TO THE DESIGN TEMPLET and code yourself :)
-# Initial step: 
-In you starting projects u cant came across great ideas so try to follow some great instructurs ideas and follow them and code yourself for 2 projects! Then make sure to come across good ideas. Note: Not responsive
+# StartUp💡
+A non-responsive templet from skretch for creative people and there buisness. 
+
+Best for practising  HTML5 and CSS3 advance coding skills.
+
+## Initial step: 
+In you starting projects u cant came across great ideas so try to follow some great instructurs ideas and follow them.
+
+Don't cheat on yourself specially on your skills. 
+
+
