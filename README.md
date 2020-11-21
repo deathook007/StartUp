@@ -1,11 +1,7 @@
 # StartUp💡
-A non-responsive templet from skretch for creative people and there buisness. 
+A non-responsive - "Desktop only" front end templet from skretch for showcasing creative people and there buisness ideas.
 
-Best for practising  HTML5 and CSS3 advance coding skills.
+Used skills - HTML5 and CSS3
 
-## Initial step: 
-In you starting projects u cant came across great ideas so try to follow some great instructurs ideas and follow them.
-
-Don't cheat on yourself specially on your skills. 
 
 
