@@ -1,24 +1,29 @@
-# StartUp💡
+# StartUp Website 💡
 - A simple and attractive non responsive UI
 - HTML5 and CSS3 
 - Multipages 
 
 ## ScreenShots Below 👇👇
 
-- 
-![screenshot]()
+- First View
 
-- 
-![screenshot]()
+![screenshot](https://github.com/deathook007/StartUp-website-html-css/blob/master/images/FrontPage.png)
 
-- 
-![screenshot]()
+- Thoughts and Values
 
-- 
-![screenshot]()
+![screenshot](https://github.com/deathook007/StartUp-website-html-css/blob/master/images/MyThoughts.png)
 
-- 
-![screenshot]()
+- Ideas
+
+![screenshot](https://github.com/deathook007/StartUp-website-html-css/blob/master/images/OurIdeas.png)
+
+- Products
+
+![screenshot](https://github.com/deathook007/StartUp-website-html-css/blob/master/images/Products.png)
+
+- Contact Us
+
+![screenshot](https://github.com/deathook007/StartUp-website-html-css/blob/master/images/ContactUs.png)
 
 ## Improvement Required
 - Responsive nature
