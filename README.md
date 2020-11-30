@@ -1,7 +1,27 @@
 # StartUp💡
-A non-responsive - "Desktop only" front end templet from skretch for showcasing creative people and there buisness ideas.
+- A simple and attractive non responsive UI
+- HTML5 and CSS3 
+- Multipages 
 
-Used skills - HTML5 and CSS3
+## ScreenShots Below 👇👇
+
+- 
+![screenshot]()
+
+- 
+![screenshot]()
+
+- 
+![screenshot]()
+
+- 
+![screenshot]()
+
+- 
+![screenshot]()
+
+## Improvement Required
+- Responsive nature
 
 
 
