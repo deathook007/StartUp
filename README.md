@@ -25,8 +25,4 @@
 
 ![screenshot](https://github.com/deathook007/StartUp-website-html-css/blob/master/images/ContactUs.png)
 
-## Improvement Required
-- Responsive nature
-
-
 
