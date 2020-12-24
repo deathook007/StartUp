@@ -1,7 +1,6 @@
 # StartUp Website 💡
-- A simple and attractive non responsive UI
+- A simple and attractive UI
 - HTML5 and CSS3 
-- Multipages 
 
 ## ScreenShots Below 👇👇
 
