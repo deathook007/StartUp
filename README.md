@@ -1,6 +1,7 @@
 # StartUp Website 💡
 - A simple and attractive UI
 - HTML5 and CSS3 
+<br>
 
 ![screenshot](https://github.com/deathook007/cli-boilerplates/blob/master/Image%20-%20quick%20use/usage.png)
 ## ScreenShots Below 👇👇
